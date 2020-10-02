@@ -14,9 +14,10 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
+  curved_navigation_bar: ^0.3.4
   flutter:
     sdk: flutter
 
@@ -43,6 +44,15 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+
+  fonts:
+    - family: Montserrat Medium
+      fonts:
+        - asset: assets/fonts/mo_me.ttf
+
+    - family: Montserrat Regular
+      fonts:
+        - asset: assets/fonts/mo_re.ttf
   #  - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
